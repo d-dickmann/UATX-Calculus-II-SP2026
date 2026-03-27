@@ -8,7 +8,8 @@ Welcome to the Spring 2026 edition of Calculus II. This repository is the centra
 **Term:** Spring 2026  
 **Instructor:** Prof. Dorothy Dickmann  
 **Email:** [ddickmann@uaustin.org](mailto:ddickmann@uaustin.org)  
-**Meeting Schedule:** [TBD]
+**Meeting Schedule:** MWF 11:30 AM - 12:45 PM, Scarbrough Room 311
+**Office Hours:** TBD
 
 ## Quick Links
 
@@ -17,7 +18,6 @@ Welcome to the Spring 2026 edition of Calculus II. This repository is the centra
 - [Lecture Notes](lectures/)
 - [Slides](slides/)
 - [Code and Computation](code/)
-- [Announcements](announcements/)
 
 ## Course Description
 

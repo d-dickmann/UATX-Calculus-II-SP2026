@@ -14,10 +14,8 @@ Welcome to the Spring 2026 edition of Calculus II. This repository is the centra
 ## Quick Links
 
 - [Syllabus](syllabus/)
-- [Assignments](assignments/)
-- [Lecture Notes](lectures/)
-- [Slides](slides/)
-- [Code and Computation](code/)
+- [Schedule](#course-cadence)
+- [Course Materials](#materials-and-software)
 
 ## Course Description
 

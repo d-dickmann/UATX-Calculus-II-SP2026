@@ -84,10 +84,10 @@ Refer to this section for updates throughout the term.
 | 4 (Apr 20-26) | Applications of integration; geometric series and present value | TBD | HW2 + Quiz 2 (Fri Apr 24) |
 | 5 (Apr 27-May 3) | Continuous probability, Taylor series, and log-normal expectation | TBD | - |
 | 6 (May 4-10) | Capstone: Black-Scholes big picture, interpretation, and computation | TBD | HW3 + Quiz 3 (Fri May 8) |
-| 7 (May 11-17) | Differential equations, slope fields, separable equations | TBD | - |
-| 8 (May 18-24) | Fixed points, stability, and applications | TBD | HW4 + Quiz 4 (Fri May 22) |
-| 9 (May 25-31) | Systems of DEs, phase portraits, Euler's method (Mon no class) | TBD | - |
-| 10 (Jun 1-5) | Synthesis, student-driven review, and course wrap-up | TBD | HW5 + Quiz 5 (Fri Jun 5) |
+| 7 (May 11-17) | Differential Equations and Dynamics | TBD | - |
+| 8 (May 18-24) | Differential Equations and Dynamics | TBD | HW4 + Quiz 4 (Fri May 22) |
+| 9 (May 25-31) | Differential Equations and Dynamics| TBD | - |
+| 10 (Jun 1-5) | Differential Equations and Dynamics | TBD | HW5 + Quiz 5 (Fri Jun 5) |
 | 11 | Final exam week | TBD | Final exam |
 
 ## Repository Structure

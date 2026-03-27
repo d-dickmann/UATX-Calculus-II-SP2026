@@ -15,7 +15,7 @@ Welcome to the Spring 2026 edition of Calculus II. This repository is the centra
 
 - [Syllabus](syllabus/)
 - [Schedule](#course-cadence)
-- [Course Materials](#materials-and-software)
+- [Course Materials](#course-materials)
 
 ## Course Description
 

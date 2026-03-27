@@ -74,7 +74,7 @@ Homework and quiz dates:
 
 ## Weekly Schedule (Living Outline)
 
-Refer to this section for updates throughout the term.
+The schedule below is tentative and subject to change throughout the term.
 
 | Week | Topics | Readings | Due Dates |
 | --- | --- | --- | --- |
@@ -90,9 +90,12 @@ Refer to this section for updates throughout the term.
 | 10 (Jun 1-5) | Differential Equations and Dynamics | TBD | HW5 + Quiz 5 (Fri Jun 5) |
 | 11 | Final exam week | TBD | Final exam |
 
+## Course Materials
+
+*This section will be updated with detailed course materials throughout the term*
+
 ## Repository Structure
 
-- `announcements/` - short course updates
 - `assignments/` - homework and project PDFs
 - `code/` - scripts, notebooks, demos
 - `data/` - datasets used in class
@@ -100,14 +103,3 @@ Refer to this section for updates throughout the term.
 - `resources/` - supplemental references
 - `slides/` - lecture slide decks
 - `syllabus/` - official course policy documents
-
-## How to Use This Page
-
-- Check this README weekly for updated links and due dates.
-- Use the folder links above to access posted files.
-- If a link is broken or unclear, please email the instructor.
-
-## Change Log
-
-- 2026-03-26: Initial course repository scaffold created.
-- 2026-03-26: Updated materials, cadence, grading, and schedule.

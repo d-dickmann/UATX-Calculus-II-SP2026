@@ -100,10 +100,10 @@ The schedule below is tentative and subject to change throughout the term. Mater
 
 **Practice Problems**
 *These problems are not required, but are available for your practice*
-- [Block 1 Practice Problems](../resources/practice-problems/PracticeProblems_Block1.pdf)
-- [Block 1 Practice Problems Solutions](../resources/practice-problems/PracticeProblems_Block1_Solutions.pdf)
+- [Block 1 Practice Problems](/resources/practice-problems/PracticeProblems_Block1.pdf)
+- [Block 1 Practice Problems Solutions](/resources/practice-problems/PracticeProblems_Block1_Solutions.pdf)
 
-**Homework 1:** Due Friday April 10. Hard copy turned in at the start of class (or scan & upload to Populi).
+[**Homework 1:**](/assignments/HW1_Accumulation_FTC.pdf) Due Friday April 10. Hard copy turned in at the start of class (or scan & upload to Populi).
 
 ## Repository Structure
 

@@ -115,6 +115,18 @@ The schedule below is tentative and subject to change throughout the term. Mater
 
 [**Homework 1:**](/assignments/HW1_Accumulation_FTC.pdf) Due Friday April 10. Hard copy turned in at the start of class (or scan & upload to Populi).
 
+**Quiz 1** — Friday, April 10 (50 minutes)
+- The quiz is a combination of multiple-choice/true-false and free-response problems.
+- You have 50 minutes; we will debrief solutions together in the remaining 15 minutes of class.
+- No notes or reference sheets; you may use a calculator for arithmetic.
+- Topics covered:
+  - Riemann sums: computing left/right sums, reasoning about overestimates vs. underestimates
+  - Fundamental Theorem of Calculus
+  - Antiderivative rules: power rule, 1/x, exponentials, trig, constant multiples, sums
+  - Indefinite vs. definite integrals and the role of +C
+  - Properties of definite integrals: additivity, reversing bounds, even/odd symmetry, comparison
+  - Graphical FTC: reading properties of F from the graph of f
+
 ## Repository Structure
 
 - `assignments/` - homework and project PDFs

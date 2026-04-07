@@ -77,17 +77,17 @@ The schedule below is tentative and subject to change throughout the term. Mater
 
 | Block | Week | Topics | Readings | Due Dates |
 | --- | --- | --- | --- | --- |
-| [1](#block-1--weeks-1--2) | 1 (Mar 30-Apr 5) | Accumulation, definite integral, FTC foundations | TBD | - |
-| 1 | 2 (Apr 6-12) | FTC and antiderivative toolkit | TBD | HW1 + Quiz 1 (Fri Apr 10) |
-| 2 | 3 (Apr 13-19) | Integration techniques (`u`-sub, integration by parts) | TBD | - |
-| 2 | 4 (Apr 20-26) | Applications of integration; geometric series and present value | TBD | HW2 + Quiz 2 (Fri Apr 24) |
-| 3 | 5 (Apr 27-May 3) | Continuous probability, Taylor series, and log-normal expectation | TBD | - |
-| 3 | 6 (May 4-10) | Capstone: Black-Scholes big picture, interpretation, and computation | TBD | HW3 + Quiz 3 (Fri May 8) |
-| 4 | 7 (May 11-17) | Differential Equations and Dynamics | TBD | - |
-| 4 | 8 (May 18-24) | Differential Equations and Dynamics | TBD | HW4 + Quiz 4 (Fri May 22) |
-| 5 | 9 (May 25-31) | Differential Equations and Dynamics| TBD | - |
-| 5 | 10 (Jun 1-5) | Differential Equations and Dynamics | TBD | HW5 + Quiz 5 (Fri Jun 5) |
-| - | 11 | Final exam week | TBD | Final exam |
+| [1](#block-1--weeks-1--2) | 1 (Mar 30-Apr 5) | Accumulation, definite integral, FTC foundations | MC Ch 33 | - |
+| 1 | 2 (Apr 6-12) | FTC, antiderivative rules, applications | MC Ch 35 (§35.1–35.4) | HW1 + Quiz 1 (Fri Apr 10) |
+| 2 | 3 (Apr 13-19) | Integration techniques (u-sub, IBP), applications | MC Ch 38 (§38.1–38.3) | - |
+| 2 | 4 (Apr 20-26) | Area between curves, consumer surplus, geometric series | MC Ch 38 (§38.4–38.6) | HW2 + Quiz 2 (Fri Apr 24) |
+| 3 | 5 (Apr 27-May 3) | Continuous probability: PDF, CDF, expected value | TBD | - |
+| 3 | 6 (May 4-10) | Taylor series: approximation, convergence, log-normal synthesis | TBD | HW3 + Quiz 3 (Fri May 8) |
+| 4 | 7 (May 11-17) | Black-Scholes capstone: derivation, computation, Greeks | TBD | - |
+| 4 | 8 (May 18-24) | Black-Scholes capstone: model critique, case studies, synthesis | TBD | HW4 + Quiz 4 (Fri May 22) |
+| 5 | 9 (May 25-31) | DEs essentials: intro, separable equations (Mon = Memorial Day) | TBD | - |
+| 5 | 10 (Jun 1-5) | Fixed points, stability, course synthesis & review | TBD | HW5 + Quiz 5 (Fri Jun 5) |
+| - | 11 | Final exam week | - | Final exam |
 
 ## Course Materials
 
@@ -97,6 +97,16 @@ The schedule below is tentative and subject to change throughout the term. Mater
 
 **Slides**
 - L02 — [What's Calculus II good for? (& intro to definite integrals)](slides/L02_Motivation_Riemann_slides.pdf)
+- L03 — [The Fundamental Theorem of Calculus (with in-class notes)](slides/L03_FTC_slides_WithInClassNotes.pdf)
+- L04 — [Discovering Antiderivative Rules and Properties of Definite Integrals](slides/L04_Antiderivatives_slides.pdf)
+
+**Code**
+- [Family of Antiderivatives (notebook)](code/L04_family_of_functions.ipynb) — visualizing why +C matters and why it cancels in definite integrals (if you don't have a Python environment set up on your machine, [open in Google Colab](https://colab.research.google.com/drive/123dxrwLCY2vs9gDIil2EMqSZp2oodxqk))
+
+**Reading**
+- [Ch 33: Change & Accumulation](https://www.mosaic-web.org/MOSAIC-Calculus/Accumulation/33-intro.html) — the accumulation concept, notation, and a useful dimensional-analysis trick for checking your work (§33.4)
+- [Ch 35: Integration](https://www.mosaic-web.org/MOSAIC-Calculus/Accumulation/35-integration.html) (§35.1–35.4) — net change, definite vs indefinite integrals, why +C matters, properties of integrals
+- *(optional)* [Ch 34: Totaling the Little Bits](https://mosaic-web.org/MOSAIC-Calculus/Accumulation/34-visualizing.html) — a visual approach to anti-differentiation complementary to Riemann sums
 
 **Practice Problems**
 *These problems are not required, but are available for your practice*

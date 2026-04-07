@@ -126,6 +126,7 @@ The schedule below is tentative and subject to change throughout the term. Mater
   - Indefinite vs. definite integrals and the role of +C
   - Properties of definite integrals: additivity, reversing bounds, even/odd symmetry, comparison
   - Graphical FTC: reading properties of F from the graph of f
+  - General application of integrals (accumulation of rate of change)
 
 ## Repository Structure
 

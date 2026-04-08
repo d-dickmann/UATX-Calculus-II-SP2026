@@ -99,9 +99,10 @@ The schedule below is tentative and subject to change throughout the term. Mater
 - L02 — [What's Calculus II good for? (& intro to definite integrals)](slides/L02_Motivation_Riemann_slides.pdf)
 - L03 — [The Fundamental Theorem of Calculus (with in-class notes)](slides/L03_FTC_slides_WithInClassNotes.pdf)
 - L04 — [Discovering Antiderivative Rules and Properties of Definite Integrals](slides/L04_Antiderivatives_slides.pdf)
+- L05 — [Graphical FTC, Fluency & Quiz Prep](slides/L05_FTC_Antiderivatives_Applications_slides.pdf)
 
 **Code**
-- [Python For Calculus](https://colab.research.google.com/drive/1zFdIMs7Ua1m6cDH2dXWS9vsKFfUHMuLz#scrollTo=RmHTRR28YpC4)
+- [Python For Calculus](https://colab.research.google.com/drive/1zFdIMs7Ua1m6cDH2dXWS9vsKFfUHMuLz#scrollTo=RmHTRR28YpC4) — **Important:** When you open this notebook in Colab, go to *File → Save a copy in Drive* so your changes are saved to your own Google Drive. Otherwise, any edits you make will be lost when you close the tab.
 - [Family of Antiderivatives (notebook)](code/L04_family_of_functions.ipynb) — visualizing why +C matters and why it cancels in definite integrals (if you don't have a Python environment set up on your machine, [open in Google Colab](https://colab.research.google.com/drive/123dxrwLCY2vs9gDIil2EMqSZp2oodxqk))
 
 **Reading**

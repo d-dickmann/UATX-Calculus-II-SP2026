@@ -101,6 +101,7 @@ The schedule below is tentative and subject to change throughout the term. Mater
 - L04 — [Discovering Antiderivative Rules and Properties of Definite Integrals](slides/L04_Antiderivatives_slides.pdf)
 
 **Code**
+- [Python For Calculus](https://colab.research.google.com/drive/1zFdIMs7Ua1m6cDH2dXWS9vsKFfUHMuLz#scrollTo=RmHTRR28YpC4)
 - [Family of Antiderivatives (notebook)](code/L04_family_of_functions.ipynb) — visualizing why +C matters and why it cancels in definite integrals (if you don't have a Python environment set up on your machine, [open in Google Colab](https://colab.research.google.com/drive/123dxrwLCY2vs9gDIil2EMqSZp2oodxqk))
 
 **Reading**
@@ -127,11 +128,6 @@ The schedule below is tentative and subject to change throughout the term. Mater
   - Properties of definite integrals: additivity, reversing bounds, even/odd symmetry, comparison
   - Graphical FTC: reading properties of F from the graph of f
   - General application of integrals (accumulation of rate of change)
-
-### Block 2 — Weeks 3 & 4
-
-**Code**
-- [Python For Calculus](https://colab.research.google.com/drive/1zFdIMs7Ua1m6cDH2dXWS9vsKFfUHMuLz#scrollTo=RmHTRR28YpC4)
 
 ## Repository Structure
 

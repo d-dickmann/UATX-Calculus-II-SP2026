@@ -128,6 +128,11 @@ The schedule below is tentative and subject to change throughout the term. Mater
   - Graphical FTC: reading properties of F from the graph of f
   - General application of integrals (accumulation of rate of change)
 
+### Block 2 — Weeks 3 & 4
+
+**Code**
+- [Python For Calculus](https://colab.research.google.com/drive/1zFdIMs7Ua1m6cDH2dXWS9vsKFfUHMuLz#scrollTo=RmHTRR28YpC4)
+
 ## Repository Structure
 
 - `assignments/` - homework and project PDFs

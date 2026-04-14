@@ -115,6 +115,9 @@ The schedule below is tentative and subject to change throughout the term. Mater
 - [Block 1 Practice Problems](/resources/PracticeProblems_Block1.pdf)
 - [Block 1 Practice Problems Solutions](/resources/PracticeProblems_Block1_Solutions.pdf)
 
+**Reference Sheet**
+- [Block 1 Reference Sheet](/resources/Block1_ReferenceSheet.pdf) — key formulas and rules from Block 1 (antiderivative rules)
+
 [**Homework 1:**](/assignments/HW1_Accumulation_FTC.pdf) Due Friday April 10. Hard copy turned in at the start of class (or scan & upload to Populi).
 
 **Quiz 1** — Friday, April 10 (50 minutes)
@@ -129,6 +132,12 @@ The schedule below is tentative and subject to change throughout the term. Mater
   - Properties of definite integrals: additivity, reversing bounds, even/odd symmetry, comparison
   - Graphical FTC: reading properties of F from the graph of f
   - General application of integrals (accumulation of rate of change)
+
+### Block 2 — Weeks 3 & 4
+
+**Slides**
+- L06 — [u-Substitution: Motivation & Method](slides/L06_USub_Intro_slides.pdf)
+- L06b — [u-Substitution Applications](slides/L06b_USub_Applications_slides.pdf)
 
 ## Repository Structure
 

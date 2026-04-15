@@ -1,0 +1,118 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.6in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{tikz}
+
+\definecolor{secblue}{RGB}{24, 95, 165}
+\definecolor{lightblue}{RGB}{181, 212, 244}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\newcommand{\unitcircle}{%
+\begin{tikzpicture}[scale=1.35, font=\footnotesize,
+  lbl/.style={font=\scriptsize, inner sep=1pt}]
+  % circle and axes
+  \draw[lightblue, thin] (-1.15,0) -- (1.15,0);
+  \draw[lightblue, thin] (0,-1.15) -- (0,1.15);
+  \draw[secblue, thick] (0,0) circle (1);
+  % 0 / 2pi
+  \fill (1,0) circle (1.5pt);
+  \node[right, xshift=2pt] at (1,0) {$0,\,2\pi$};
+  % pi/6 - label pulled out along the 30° ray
+  \fill ({cos(30)},{sin(30)}) circle (1.5pt);
+  \draw[gray, thin] ({cos(30)},{sin(30)}) -- ({1.18*cos(30)},{1.18*sin(30)});
+  \node[lbl, right, yshift=-5pt] at ({1.20*cos(30)},{1.20*sin(30)})
+    {$\frac{\pi}{6}$\; $\bigl(\!\frac{\sqrt3}{2},\,\frac{1}{2}\!\bigr)$};
+  % pi/4 - label pulled out along the 45° ray
+  \fill ({cos(45)},{sin(45)}) circle (1.5pt);
+  \draw[gray, thin] ({cos(45)},{sin(45)}) -- ({1.18*cos(45)},{1.18*sin(45)});
+  \node[lbl, right] at ({1.20*cos(45)},{1.20*sin(45)})
+    {$\frac{\pi}{4}$\; $\bigl(\!\frac{\sqrt2}{2},\,\frac{\sqrt2}{2}\!\bigr)$};
+  % pi/3 - label pulled out along the 60° ray
+  \fill ({cos(60)},{sin(60)}) circle (1.5pt);
+  \draw[gray, thin] ({cos(60)},{sin(60)}) -- ({1.18*cos(60)},{1.18*sin(60)});
+  \node[lbl, right, yshift=9pt] at ({1.20*cos(60)},{1.20*sin(60)})
+    {$\frac{\pi}{3}$\; $\bigl(\!\frac{1}{2},\,\frac{\sqrt3}{2}\!\bigr)$};
+  % pi/2
+  \fill (0,1) circle (1.5pt);
+  \node[above, yshift=2pt] at (0,1) {$\frac{\pi}{2}$};
+  % pi
+  \fill (-1,0) circle (1.5pt);
+  \node[left, xshift=-2pt] at (-1,0) {$\pi$};
+  % 3pi/2
+  \fill (0,-1) circle (1.5pt);
+  \node[below, yshift=-2pt] at (0,-1) {$\frac{3\pi}{2}$};
+  % coordinate meaning
+  \node[secblue, font=\scriptsize] at (0,-1.45) {$(\cos\theta,\;\sin\theta)$};
+\end{tikzpicture}%
+}
+
+\newcommand{\refcard}{%
+\begin{center}
+  {\large \textbf{\textcolor{secblue}{Antiderivative Rules}}}\\[2pt]
+  {\small Calculus II\enspace$\cdot$\enspace STM 1002\enspace$\cdot$\enspace Spring 2026}
+\end{center}
+
+\vspace{-2pt}
+\noindent\rule{\textwidth}{0.6pt}
+\vspace{2pt}
+
+\begin{minipage}[t]{0.52\textwidth}
+\vspace{0pt}
+\begin{center}
+\renewcommand{\arraystretch}{1.7}
+\begin{tabular}{@{}l@{\quad}c@{\quad}l@{}}
+\toprule
+$f(x)$ & & $F(x)$ \\
+\midrule
+$x^n \quad (n \neq -1)$
+  & $\longrightarrow$ & $\dfrac{x^{n+1}}{n+1} + C$ \\[6pt]
+$\dfrac{1}{x}$
+  & $\longrightarrow$ & $\ln|x| + C$ \\[6pt]
+$e^{kx}$
+  & $\longrightarrow$ & $\dfrac{1}{k}\,e^{kx} + C$ \\[6pt]
+$a^x$
+  & $\longrightarrow$ & $\dfrac{a^x}{\ln a} + C$ \\[6pt]
+$\cos x$
+  & $\longrightarrow$ & $\sin x + C$ \\[4pt]
+$\sin x$
+  & $\longrightarrow$ & $-\cos x + C$ \\[4pt]
+$\sec^2 x$
+  & $\longrightarrow$ & $\tan x + C$ \\[4pt]
+constant $c$
+  & $\longrightarrow$ & $cx + C$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+\vspace{8pt}
+\begin{center}
+\unitcircle
+\end{center}
+\end{minipage}
+
+\vspace{2pt}
+\noindent\rule{\textwidth}{0.6pt}
+}
+
+\begin{document}
+
+\refcard
+
+\vfill
+
+\noindent\rule{\textwidth}{0.4pt}\par
+\vspace{-0.4pt}
+\noindent\rule{\textwidth}{0.4pt}
+
+\vfill
+
+\refcard
+
+\end{document}

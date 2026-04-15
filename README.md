@@ -79,8 +79,8 @@ The schedule below is tentative and subject to change throughout the term. Mater
 | --- | --- | --- | --- | --- |
 | [1](#block-1--weeks-1--2) | 1 (Mar 30-Apr 5) | Accumulation, definite integral, FTC foundations | MC Ch 33 | - |
 | 1 | 2 (Apr 6-12) | FTC, antiderivative rules, applications | MC Ch 35 (§35.1–35.4) | HW1 + Quiz 1 (Fri Apr 10) |
-| 2 | 3 (Apr 13-19) | Integration techniques (u-sub, IBP), applications | MC Ch 38 (§38.1–38.3) | - |
-| 2 | 4 (Apr 20-26) | Area between curves, consumer surplus, geometric series | MC Ch 38 (§38.4–38.6) | HW2 + Quiz 2 (Fri Apr 24) |
+| 2 | 3 (Apr 13-19) | Integration techniques (u-sub, IBP), area & surplus | MC Ch 38 | - |
+| 2 | 4 (Apr 20-26) | Geometric series, present value, Taylor series intro | MC Ch 51, Ch 27 | HW2 + Quiz 2 (Fri Apr 24) |
 | 3 | 5 (Apr 27-May 3) | Continuous probability: PDF, CDF, expected value | TBD | - |
 | 3 | 6 (May 4-10) | Taylor series: approximation, convergence, log-normal synthesis | TBD | HW3 + Quiz 3 (Fri May 8) |
 | 4 | 7 (May 11-17) | Black-Scholes capstone: derivation, computation, Greeks | TBD | - |
@@ -93,7 +93,8 @@ The schedule below is tentative and subject to change throughout the term. Mater
 
 *This section will be updated with detailed course materials throughout the term*
 
-### Block 1 — Weeks 1 & 2
+<details>
+<summary><h3>Block 1 — Weeks 1 & 2</h3></summary>
 
 **Slides**
 - L02 — [What's Calculus II good for? (& intro to definite integrals)](slides/L02_Motivation_Riemann_slides.pdf)
@@ -133,11 +134,25 @@ The schedule below is tentative and subject to change throughout the term. Mater
   - Graphical FTC: reading properties of F from the graph of f
   - General application of integrals (accumulation of rate of change)
 
-### Block 2 — Weeks 3 & 4
+</details>
+
+<details open>
+<summary><h3>Block 2 — Weeks 3 & 4</h3></summary>
 
 **Slides**
 - L06 — [u-Substitution: Motivation & Method](slides/L06_USub_Intro_slides.pdf)
 - L06b — [u-Substitution Applications](slides/L06b_USub_Applications_slides.pdf)
+- L07 — [Integration by Parts](slides/L07_IBP_slides.pdf)
+
+**Reading**
+- [Ch 38: Symbolic Anti-differentiation](https://www.mosaic-web.org/MOSAIC-Calculus/Accumulation/38-symbolic.html) — u-substitution (§38.3), integration by parts (§38.4–38.5), and an honest discussion of when these techniques fail (§38.6). The chapter's framing complements what we discuss in class: hand techniques are for building structural understanding, not competing with a computer.
+- [Ch 51: Present and Future Value](https://mosaic-web.org/MOSAIC-Calculus/Manifestations/51-future-value.html) — discounting, net present value as an integral, and the logic of exponential discounting. Directly relevant to the geometric series / present value lesson and the HW2 computational notebook.
+- [Ch 27: Polynomials for Approximating Functions](https://mosaic-web.org/MOSAIC-Calculus/Differentiation/27-taylor.html) — Taylor polynomials built by matching derivatives. Covers the e^x example we do in class and explains why the approximation improves near the center point. Read this before or after L10 (Taylor Series).
+- *(optional)* [Ch 37: Integrals Step-by-Step (Euler Method)](https://mosaic-web.org/MOSAIC-Calculus/Accumulation/37-euler.html) — numerical integration via small steps. This is essentially what the computer does when no closed-form antiderivative exists. Good context for the computational problems on HW2.
+
+*Note: MOSAIC Calculus uses R and its own notation (*∂_x* for derivatives). The mathematical ideas are the same as what we cover in class — just read past the code blocks.*
+
+</details>
 
 ## Repository Structure
 

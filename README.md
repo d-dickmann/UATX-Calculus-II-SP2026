@@ -150,6 +150,13 @@ The schedule below is tentative and subject to change throughout the term. Mater
 - [Ch 27: Polynomials for Approximating Functions](https://mosaic-web.org/MOSAIC-Calculus/Differentiation/27-taylor.html) — Taylor polynomials and local approximation.
 - *(optional)* [Ch 37: Integrals Step-by-Step (Euler Method)](https://mosaic-web.org/MOSAIC-Calculus/Accumulation/37-euler.html) — numerical integration (Euler method).
 
+**Practice Problems**
+*These problems are not required, but are available for your practice*
+- [Block 2 Practice Problems](/resources/PracticeProblems_Block2.pdf)
+- [Block 2 Practice Problems Solutions](/resources/PracticeProblems_Block2_Solutions.pdf)
+
+[**Homework 2:**](/assignments/HW2_Integration_Applications.pdf) Due Friday April 24. Hard copy at the start of class.
+
 </details>
 
 ## Repository Structure

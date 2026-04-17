@@ -143,6 +143,7 @@ The schedule below is tentative and subject to change throughout the term. Mater
 - L06 — [u-Substitution: Motivation & Method](slides/L06_USub_Intro_slides.pdf)
 - L06b — [u-Substitution Applications](slides/L06b_USub_Applications_slides.pdf)
 - L07 — [Integration by Parts](slides/L07_IBP_slides.pdf)
+- L08 — [Area Between Curves & Consumer Surplus](slides/L08_Area_Surplus_slides.pdf)
 
 **Reading**
 - [Ch 38: Symbolic Anti-differentiation](https://www.mosaic-web.org/MOSAIC-Calculus/Accumulation/38-symbolic.html) — u-substitution, integration by parts, and limits of symbolic methods.

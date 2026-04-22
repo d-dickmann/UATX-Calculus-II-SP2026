@@ -149,6 +149,12 @@ The schedule below is tentative and subject to change throughout the term. Mater
 - [L10 Catalog Sale Modeling Notebook (Colab)](https://colab.research.google.com/drive/1HOAs2W4kXpeuNW7oKrXVL7lJXciEkPSE) — present/future value of a music catalog royalty stream. **Important:** Go to *File → Save a copy in Drive* before editing, otherwise your changes will be lost.
 - [L10 Vancomycin Dosing Notebook (Colab)](https://colab.research.google.com/drive/1xp4hoOA-DrJeXEybHaw3kbpYse0gbjtN) — AUC and steady-state trough via geometric series. **Important:** Go to *File → Save a copy in Drive* before editing, otherwise your changes will be lost.
 
+**L10 Lab Packet**
+- [L10 Lab Packet Solutions (with explanations)](/resources/L10_Lab_Packet_Solutions.pdf) — full worked solutions for the Wednesday 4/22 lab packet (Dylan's catalog + vancomycin dosing), with commentary on each step.
+
+**Supplementary Notes**
+- [How does the continuous discount rate connect to the discrete discount rate?](/resources/L09_L10_DiscreteToContinuousDiscountRate.pdf) — companion notes to L09/L10 walking through the bridge from discrete discounting (`(1+r)^-t`) to continuous discounting (the `e^{-rt}` factor).
+
 **Reading**
 - [Ch 38: Symbolic Anti-differentiation](https://www.mosaic-web.org/MOSAIC-Calculus/Accumulation/38-symbolic.html) — u-substitution, integration by parts, and limits of symbolic methods.
 - [Ch 51: Present and Future Value](https://mosaic-web.org/MOSAIC-Calculus/Manifestations/51-future-value.html) — discounting, net present value, and exponential logic.

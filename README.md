@@ -144,6 +144,7 @@ The schedule below is tentative and subject to change throughout the term. Mater
 - L06b — [u-Substitution Applications](slides/L06b_USub_Applications_slides.pdf)
 - L07 — [Integration by Parts](slides/L07_IBP_slides.pdf)
 - L08 — [Area Between Curves & Consumer Surplus](slides/L08_Area_Surplus_slides.pdf)
+- L09 — [Geometric Series & Present Value](slides/L09_Series_PV_slides.pdf)
 
 **Code**
 - [L10 Catalog Sale Modeling Notebook (Colab)](https://colab.research.google.com/drive/1HOAs2W4kXpeuNW7oKrXVL7lJXciEkPSE) — present/future value of a music catalog royalty stream. **Important:** Go to *File → Save a copy in Drive* before editing, otherwise your changes will be lost.

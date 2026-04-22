@@ -2,7 +2,10 @@
 
 Welcome to the Spring 2026 edition of Calculus II. This repository is the central course webpage for materials, announcements, assignments, and schedule updates.
 
-## Course Information
+<details>
+<summary><h2>Course Info</h2></summary>
+
+### Course Information
 
 **Course:** STM 1002 - Calculus II  
 **Term:** Spring 2026  
@@ -11,19 +14,19 @@ Welcome to the Spring 2026 edition of Calculus II. This repository is the centra
 **Meeting Schedule:** MWF 11:30 AM - 12:45 PM, Scarbrough Room 311  
 **Office Hours:** W 9:30 AM - 11:30 AM, Second Floor, otherwise by appointment. Email me for second floor access as needed.
 
-## Quick Links
+### Quick Links
 
 - [Syllabus](syllabus/)
-- [Schedule](#course-cadence)
+- [Schedule](#weekly-schedule-living-outline)
 - [Course Materials](#course-materials)
 
-## Course Description
+### Course Description
 
 This course is the second in a two-course sequence and exposes the student to mathematical ideas of accumulation, integration, and basic dynamics.
 
 Calculus II extends ideas from differential calculus into integration, accumulation, series, and basic dynamics. The course emphasizes conceptual understanding, careful problem solving, and communication of mathematical reasoning.
 
-## Learning Objectives
+### Learning Objectives
 
 By the end of the term, students will be able to:
 
@@ -31,7 +34,7 @@ By the end of the term, students will be able to:
 - Find antiderivatives and apply integrals to displacement, net change, and area.
 - Interpret and solve separable differential equations; use slope fields and identify fixed points and stability.
 
-## Materials and Software
+### Materials and Software
 
 - Reading: *[Mosaic Calculus](https://www.mosaic-web.org/MOSAIC-Calculus/)* (MC) by Danny Kaplan
 - Additional notes/readings will be posted in `resources/` as needed.
@@ -48,7 +51,7 @@ Packages that may be useful in this course include:
 
 At points in the course, Python tools may also be useful (`sympy`, `scipy`). [Google Colab](https://colab.research.google.com/) is a good option if you do not have a local Python setup.
 
-## Course Cadence
+### Course Cadence
 
 There are 5 homework assignments and 5 quizzes.
 
@@ -65,11 +68,13 @@ Homework and quiz dates:
 - Homework 4 due Friday, May 22 at 11:30a; Quiz 4 on Friday, May 22
 - Homework 5 due Friday, Jun 5 at 11:30a; Quiz 5 on Friday, Jun 5
 
-## Evaluation
+### Evaluation
 
 - Homework: 20%
 - Quizzes: 30%
 - Final Exam: 50%
+
+</details>
 
 ## Weekly Schedule (Living Outline)
 

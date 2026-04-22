@@ -80,9 +80,9 @@ The schedule below is tentative and subject to change throughout the term. Mater
 | [1](#block-1--weeks-1--2) | 1 (Mar 30-Apr 5) | Accumulation, definite integral, FTC foundations | MC Ch 33 | - |
 | [1](#block-1--weeks-1--2) | 2 (Apr 6-12) | FTC, antiderivative rules, applications | MC Ch 35 (§35.1–35.4) | HW1 + Quiz 1 (Fri Apr 10) |
 | [2](#block-2--weeks-3--4) | 3 (Apr 13-19) | Integration techniques (u-sub, IBP), area & surplus | MC Ch 38 | - |
-| [2](#block-2--weeks-3--4) | 4 (Apr 20-26) | Geometric series, present value, Taylor series intro | MC Ch 51, Ch 27 | HW2 + Quiz 2 (Fri Apr 24) |
+| [2](#block-2--weeks-3--4) | 4 (Apr 20-26) | Geometric series & present value; modeling lab day | MC Ch 51 | HW2 + Quiz 2 (Fri Apr 24) |
 | 3 | 5 (Apr 27-May 3) | Continuous probability: PDF, CDF, expected value | TBD | - |
-| 3 | 6 (May 4-10) | Taylor series: approximation, convergence, log-normal synthesis | TBD | HW3 + Quiz 3 (Fri May 8) |
+| 3 | 6 (May 4-10) | Taylor series: intuition, convergence, log-normal synthesis | MC Ch 27 | HW3 + Quiz 3 (Fri May 8) |
 | 4 | 7 (May 11-17) | Black-Scholes capstone: derivation, computation, Greeks | TBD | - |
 | 4 | 8 (May 18-24) | Black-Scholes capstone: model critique, case studies, synthesis | TBD | HW4 + Quiz 4 (Fri May 22) |
 | 5 | 9 (May 25-31) | DEs essentials: intro, separable equations (Mon = Memorial Day) | TBD | - |
@@ -144,6 +144,10 @@ The schedule below is tentative and subject to change throughout the term. Mater
 - L06b — [u-Substitution Applications](slides/L06b_USub_Applications_slides.pdf)
 - L07 — [Integration by Parts](slides/L07_IBP_slides.pdf)
 - L08 — [Area Between Curves & Consumer Surplus](slides/L08_Area_Surplus_slides.pdf)
+
+**Code**
+- [L10 Catalog Sale Modeling Notebook (Colab)](https://colab.research.google.com/drive/1HOAs2W4kXpeuNW7oKrXVL7lJXciEkPSE) — present/future value of a music catalog royalty stream. **Important:** Go to *File → Save a copy in Drive* before editing, otherwise your changes will be lost.
+- [L10 Vancomycin Dosing Notebook (Colab)](https://colab.research.google.com/drive/1xp4hoOA-DrJeXEybHaw3kbpYse0gbjtN) — AUC and steady-state trough via geometric series. **Important:** Go to *File → Save a copy in Drive* before editing, otherwise your changes will be lost.
 
 **Reading**
 - [Ch 38: Symbolic Anti-differentiation](https://www.mosaic-web.org/MOSAIC-Calculus/Accumulation/38-symbolic.html) — u-substitution, integration by parts, and limits of symbolic methods.

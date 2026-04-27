@@ -86,8 +86,8 @@ The schedule below is tentative and subject to change throughout the term. Mater
 | [1](#block-1--weeks-1--2) | 2 (Apr 6-12) | FTC, antiderivative rules, applications | MC Ch 35 (§35.1–35.4) | HW1 + Quiz 1 (Fri Apr 10) |
 | [2](#block-2--weeks-3--4) | 3 (Apr 13-19) | Integration techniques (u-sub, IBP), area & surplus | MC Ch 38 | - |
 | [2](#block-2--weeks-3--4) | 4 (Apr 20-26) | Geometric series & present value; modeling lab day | MC Ch 51 | HW2 + Quiz 2 (Fri Apr 24) |
-| 3 | 5 (Apr 27-May 3) | Continuous probability: PDF, CDF, expected value | TBD | - |
-| 3 | 6 (May 4-10) | Taylor series: intuition, convergence, log-normal synthesis | MC Ch 27 | HW3 + Quiz 3 (Fri May 8) |
+| [3](#block-3--weeks-5--6) | 5 (Apr 27-May 3) | Continuous probability: PDF, CDF, expected value | TBD | - |
+| [3](#block-3--weeks-5--6) | 6 (May 4-10) | Taylor series: intuition, convergence, log-normal synthesis | MC Ch 27 | HW3 + Quiz 3 (Fri May 8) |
 | 4 | 7 (May 11-17) | Black-Scholes capstone: derivation, computation, Greeks | TBD | - |
 | 4 | 8 (May 18-24) | Black-Scholes capstone: model critique, case studies, synthesis | TBD | HW4 + Quiz 4 (Fri May 22) |
 | 5 | 9 (May 25-31) | DEs essentials: intro, separable equations (Mon = Memorial Day) | TBD | - |
@@ -141,7 +141,7 @@ The schedule below is tentative and subject to change throughout the term. Mater
 
 </details>
 
-<details open>
+<details>
 <summary><h3>Block 2 — Weeks 3 & 4</h3></summary>
 
 **Slides**
@@ -171,6 +171,17 @@ The schedule below is tentative and subject to change throughout the term. Mater
 - [Block 2 Practice Problems Solutions](/resources/PracticeProblems_Block2_Solutions.pdf)
 
 [**Homework 2:**](/assignments/HW2_Integration_Applications.pdf) Due Friday April 24. Hard copy at the start of class.
+
+</details>
+
+<details open>
+<summary><h3>Block 3 — Weeks 5 & 6</h3></summary>
+
+**Slides**
+- L11 — The Normal Distribution *(coming Monday Apr 28)*
+
+**Code**
+- [L11 Normal Distribution Calculator (Colab)](https://drive.google.com/file/d/1CH3z1lJ3jiw_WSCYIoOWAZuQP9b-4C7a/view?usp=sharing) — a bare-bones calculator notebook for `norm.cdf` and `norm.ppf`. Use this for the final numerical step once you have set up your z-score. **Important:** Go to *File → Save a copy in Drive* before editing, otherwise your changes will be lost.
 
 </details>
 

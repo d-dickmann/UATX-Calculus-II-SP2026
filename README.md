@@ -178,7 +178,7 @@ The schedule below is tentative and subject to change throughout the term. Mater
 <summary><h3>Block 3 — Weeks 5 & 6</h3></summary>
 
 **Slides**
-- L11 — The Normal Distribution *(coming Monday Apr 28)*
+- L11 — The Normal Distribution *(coming Monday Apr 27 after class)*
 
 **Code**
 - [L11 Normal Distribution Calculator (Colab)](https://drive.google.com/file/d/1CH3z1lJ3jiw_WSCYIoOWAZuQP9b-4C7a/view?usp=sharing) — a bare-bones calculator notebook for `norm.cdf` and `norm.ppf`. Use this for the final numerical step once you have set up your z-score. **Important:** Go to *File → Save a copy in Drive* before editing, otherwise your changes will be lost.

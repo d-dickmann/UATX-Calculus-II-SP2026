@@ -185,6 +185,7 @@ The schedule below is tentative and subject to change throughout the term. Mater
 - [L11 Normal Distribution Calculator (Colab)](https://drive.google.com/file/d/1CH3z1lJ3jiw_WSCYIoOWAZuQP9b-4C7a/view?usp=sharing) — a bare-bones calculator notebook for `norm.cdf` and `norm.ppf`. Use this for the final numerical step once you have set up your z-score. **Important:** Go to *File → Save a copy in Drive* before editing, otherwise your changes will be lost.
 - [L12 Normal Distribution Handout](/resources/L12_Normal_Handout.pdf) — three modeling problems on the normal distribution from Wednesday April 29 (quality control, hiring pipeline, mass near the mean).
 - [L12 Normal Distribution Handout — Answer Key](/resources/L12_Normal_Handout_Key.pdf) — full worked solutions to the three handout problems.
+- [L13 Taylor Visualizer (Colab)](https://drive.google.com/file/d/17ki1_xhesqWTU7H-226ZoZb3JorpX0wY/view?usp=drive_link) — interactive notebook from L13 for plotting Taylor polynomials against $e^x$, $\ln(1+x)$, $\sin x$, and $\cos x$, dialing $n$ up to see convergence (or the wall). **Important:** Go to *File → Save a copy in Drive* before editing, otherwise your changes will be lost.
 
 **Additional Resources**
 - [Taylor series — Chapter 11, Essence of Calculus (3Blue1Brown, 22 min)](https://www.youtube.com/watch?v=3d6DsjIBzJ4) — geometric intuition for where the Taylor formula comes from and why each term matters. A nice complement to L13.

@@ -99,7 +99,7 @@ The schedule below is tentative and subject to change throughout the term. Mater
 *This section will be updated with detailed course materials throughout the term. Click on the triangle to expand each section.*
 
 <details>
-<summary><h3>Block 1 — Weeks 1 & 2</h3></summary>
+<summary><h3 id="block-1--weeks-1--2">Block 1 — Weeks 1 & 2</h3></summary>
 
 **Slides**
 - L02 — [What's Calculus II good for? (& intro to definite integrals)](slides/L02_Motivation_Riemann_slides.pdf)
@@ -142,7 +142,7 @@ The schedule below is tentative and subject to change throughout the term. Mater
 </details>
 
 <details>
-<summary><h3>Block 2 — Weeks 3 & 4</h3></summary>
+<summary><h3 id="block-2--weeks-3--4">Block 2 — Weeks 3 & 4</h3></summary>
 
 **Slides**
 - L06 — [u-Substitution: Motivation & Method](slides/L06_USub_Intro_slides.pdf)
@@ -175,7 +175,7 @@ The schedule below is tentative and subject to change throughout the term. Mater
 </details>
 
 <details open>
-<summary><h3>Block 3 — Weeks 5 & 6</h3></summary>
+<summary><h3 id="block-3--weeks-5--6">Block 3 — Weeks 5 & 6</h3></summary>
 
 **Slides**
 - L11 — [The Normal Distribution](slides/L11_Normal_slides.pdf)

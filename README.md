@@ -180,6 +180,7 @@ The schedule below is tentative and subject to change throughout the term. Mater
 **Slides**
 - L11 — [The Normal Distribution](slides/L11_Normal_slides.pdf)
 - L13 — [Taylor Series: Intuition & Approximation](slides/L13_Taylor_Intro_slides.pdf)
+- L14 — [Taylor Series: Convergence & Error](slides/L14_Taylor_ConverganceAndErrors_slides.pdf)
 
 **Code & In Class Practice**
 - [L11 Normal Distribution Calculator (Colab)](https://drive.google.com/file/d/1CH3z1lJ3jiw_WSCYIoOWAZuQP9b-4C7a/view?usp=sharing) — a bare-bones calculator notebook for `norm.cdf` and `norm.ppf`. Use this for the final numerical step once you have set up your z-score. **Important:** Go to *File → Save a copy in Drive* before editing, otherwise your changes will be lost.
@@ -189,6 +190,8 @@ The schedule below is tentative and subject to change throughout the term. Mater
 
 **Additional Resources**
 - [Taylor series — Chapter 11, Essence of Calculus (3Blue1Brown, 22 min)](https://www.youtube.com/watch?v=3d6DsjIBzJ4) — geometric intuition for where the Taylor formula comes from and why each term matters. A nice complement to L13.
+
+[**Homework 3:**](/assignments/HW3_Normal_Taylor.pdf) Due Friday May 8 at 11:30a. Submit on Populi as a single PDF.
 
 </details>
 

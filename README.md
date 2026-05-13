@@ -88,8 +88,8 @@ The schedule below is tentative and subject to change throughout the term. Mater
 | [2](#block-2--weeks-3--4) | 4 (Apr 20-26) | Geometric series & present value; modeling lab day | MC Ch 51 | HW2 + Quiz 2 (Fri Apr 24) |
 | [3](#block-3--weeks-5--6) | 5 (Apr 27-May 3) | Normal distribution; Taylor series | TBD | - |
 | [3](#block-3--weeks-5--6) | 6 (May 4-10) | Taylor series advanced; Log-normal + Monte Carlo lab | MC Ch 27 | HW3 + Quiz 3 (Fri May 8) |
-| 4 | 7 (May 11-17) | Black-Scholes capstone | TBD | - |
-| 4 | 8 (May 18-24) | Black-Scholes capstone | TBD | HW4 + Quiz 4 (Fri May 22) |
+| [4](#block-4--weeks-7--8) | 7 (May 11-17) | Black-Scholes capstone | TBD | - |
+| [4](#block-4--weeks-7--8) | 8 (May 18-24) | Black-Scholes capstone | TBD | Report Due (Fri May 22), Graded Discussion (Fri May 22) |
 | 5 | 9 (May 25-31) | Differential Equations & Dynamics (Mon = Memorial Day) | TBD | - |
 | 5 | 10 (Jun 1-5) | Differential Equations & Dynamics | TBD | HW5 + Quiz 5 (Fri Jun 5) |
 | - | 11 | Final exam week | - | Final exam |
@@ -174,7 +174,7 @@ The schedule below is tentative and subject to change throughout the term. Mater
 
 </details>
 
-<details open>
+<details>
 <summary><h3 id="block-3--weeks-5--6">Block 3 — Weeks 5 & 6</h3></summary>
 
 **Slides**
@@ -193,6 +193,19 @@ The schedule below is tentative and subject to change throughout the term. Mater
 - [Taylor series — Chapter 11, Essence of Calculus (3Blue1Brown, 22 min)](https://www.youtube.com/watch?v=3d6DsjIBzJ4) — geometric intuition for where the Taylor formula comes from and why each term matters. A nice complement to L13.
 
 [**Homework 3:**](/assignments/HW3_Normal_Taylor.pdf) Due Friday May 8 at 11:30a. Submit on Populi as a single PDF.
+
+</details>
+
+<details open>
+<summary><h3 id="block-4--weeks-7--8">Block 4 — Weeks 7 & 8</h3></summary>
+
+Block 4 is a two-week modeling block built around a Black-Scholes capstone project with two checkpoints. The project replaces the Homework 4 and Quiz 4 grades; see the [project timeline](/assignments/BS_Project_Timeline.pdf) for the full schedule and checkpoint structure.
+
+**Resources**
+- [L17 Risk, Hedging, and Black-Scholes — Lecture Notes](/resources/L17_LectureNotesResource.pdf) — digitized class notes covering risk and hedging, forward contracts, European and American options, and the Black-Scholes formula.
+
+**Project Files**
+- [Black-Scholes SPX Project — Part 1](/assignments/BlackScholes_SPX_ProjectPart1.pdf) — option pricing, FTC, and Taylor approximation. First checkpoint of the capstone project.
 
 </details>
 

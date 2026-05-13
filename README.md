@@ -205,7 +205,7 @@ Block 4 is a two-week modeling block built around a Black-Scholes capstone proje
 - [L17 Risk, Hedging, and Black-Scholes — Lecture Notes](/resources/L17_LectureNotesResource.pdf) — digitized class notes covering risk and hedging, forward contracts, European and American options, and the Black-Scholes formula.
 
 **Project Files**
-- [Black-Scholes SPX Project — Part 1](/assignments/BlackScholes_SPX_ProjectPart1.pdf) — option pricing, FTC, and Taylor approximation. First checkpoint of the capstone project.
+- [Black-Scholes SPX Project — Part 1](/assignments/BlackScholes_SPX_ProjectPart1.pdf) — option pricing, FTC, and Taylor approximation. First checkpoint of the capstone project. Due in hard copy Friday, May 15, 2026.
 
 </details>
 

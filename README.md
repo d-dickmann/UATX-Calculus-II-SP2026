@@ -205,7 +205,7 @@ Block 4 is a two-week modeling block built around a Black-Scholes capstone proje
 - [L17 Risk, Hedging, and Black-Scholes — Lecture Notes](/resources/L17_LectureNotesResource.pdf) — digitized class notes covering risk and hedging, forward contracts, European and American options, and the Black-Scholes formula.
 
 **Project Files**
-- [Black-Scholes SPX Project — Full Brief](/assignments/BS_Project_SPX_Brief.pdf) — the complete capstone project: option pricing (Part 1), the Greeks and put-call parity (Part 2.1), portfolio protection application (Part 2.2), model critique (Part 3), Black-Scholes in the real world (Part 4), and the Research Note. Final report due Thursday, May 21 by midnight on Populi.
+- [Black-Scholes SPX Project — Full Brief](/assignments/BS_Project_SPX_Brief.pdf) — Final report due Thursday, May 21 by midnight on Populi, Graded in-class discussion Friday, May 22. 
 
 </details>
 

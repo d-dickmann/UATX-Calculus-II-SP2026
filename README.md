@@ -53,7 +53,7 @@ At points in the course, Python tools may also be useful (`sympy`, `scipy`). [Go
 
 ### Course Cadence
 
-There are 5 homework assignments and 5 quizzes.
+There are 5 homework assignments and 5 quizzes. Block 4 is an exception: HW4 and Quiz 4 are replaced by the capstone project and graded discussion (see Block 4 below).
 
 - Homeworks are due on Fridays at 11:30a (start of class) via Populi or hard copy to the professor.
 - Quizzes occur on the same Fridays (Weeks 2, 4, 6, 8, 10).
@@ -65,7 +65,7 @@ Homework and quiz dates:
 - Homework 1 due Friday, Apr 10 at 11:30a; Quiz 1 on Friday, Apr 10
 - Homework 2 due Friday, Apr 24 at 11:30a; Quiz 2 on Friday, Apr 24
 - Homework 3 due Friday, May 8 at 11:30a; Quiz 3 on Friday, May 8
-- Homework 4 due Friday, May 22 at 11:30a; Quiz 4 on Friday, May 22
+- Block 4 capstone project due Thursday, May 21 by midnight (Populi); graded in-class discussion Friday, May 22 (replaces HW4 and Quiz 4)
 - Homework 5 due Friday, Jun 5 at 11:30a; Quiz 5 on Friday, Jun 5
 
 ### Evaluation
@@ -87,7 +87,7 @@ The schedule below is tentative and subject to change throughout the term. Mater
 | [2](#block-2--weeks-3--4) | 3 (Apr 13-19) | Integration techniques (u-sub, IBP), area & surplus | MC Ch 38 | - |
 | [2](#block-2--weeks-3--4) | 4 (Apr 20-26) | Geometric series & present value; modeling lab day | MC Ch 51 | HW2 + Quiz 2 (Fri Apr 24) |
 | [3](#block-3--weeks-5--6) | 5 (Apr 27-May 3) | Normal distribution; Taylor series | TBD | - |
-| [3](#block-3--weeks-5--6) | 6 (May 4-10) | Taylor series advanced; Log-normal + Monte Carlo lab | MC Ch 27 | HW3 + Quiz 3 (Fri May 8) |
+| [3](#block-3--weeks-5--6) | 6 (May 4-10) | Taylor series advanced; Monte Carlo lab | MC Ch 27 | HW3 + Quiz 3 (Fri May 8) |
 | [4](#block-4--weeks-7--8) | 7 (May 11-17) | Black-Scholes capstone | TBD | - |
 | [4](#block-4--weeks-7--8) | 8 (May 18-24) | Black-Scholes capstone | TBD | Report Due (Fri May 22), Graded Discussion (Fri May 22) |
 | 5 | 9 (May 25-31) | Differential Equations & Dynamics (Mon = Memorial Day) | TBD | - |
@@ -205,7 +205,7 @@ Block 4 is a two-week modeling block built around a Black-Scholes capstone proje
 - [L17 Risk, Hedging, and Black-Scholes — Lecture Notes](/resources/L17_LectureNotesResource.pdf) — digitized class notes covering risk and hedging, forward contracts, European and American options, and the Black-Scholes formula.
 
 **Project Files**
-- [Black-Scholes SPX Project — Part 1](/assignments/BlackScholes_SPX_ProjectPart1.pdf) — option pricing, FTC, and Taylor approximation. First checkpoint of the capstone project. Due in hard copy Friday, May 15, 2026.
+- [Black-Scholes SPX Project — Full Brief](/assignments/BS_Project_SPX_Brief.pdf) — the complete capstone project: option pricing (Part 1), the Greeks and put-call parity (Part 2.1), portfolio protection application (Part 2.2), model critique (Part 3), Black-Scholes in the real world (Part 4), and the Research Note. Final report due Thursday, May 21 by midnight on Populi.
 
 </details>
 

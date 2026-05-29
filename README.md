@@ -90,8 +90,8 @@ The schedule below is tentative and subject to change throughout the term. Mater
 | [3](#block-3--weeks-5--6) | 6 (May 4-10) | Taylor series advanced; Monte Carlo lab | MC Ch 27 | HW3 + Quiz 3 (Fri May 8) |
 | [4](#block-4--weeks-7--8) | 7 (May 11-17) | Black-Scholes capstone | TBD | - |
 | [4](#block-4--weeks-7--8) | 8 (May 18-24) | Black-Scholes capstone | TBD | Report Due (Fri May 22), Graded Discussion (Fri May 22) |
-| 5 | 9 (May 25-31) | Differential Equations & Dynamics (Mon = Memorial Day) | TBD | - |
-| 5 | 10 (Jun 1-5) | Differential Equations & Dynamics | TBD | HW5 + Quiz 5 (Fri Jun 5) |
+| [5](#block-5--weeks-9--10) | 9 (May 25-31) | Differential Equations & Dynamics (Mon = Memorial Day) | TBD | - |
+| [5](#block-5--weeks-9--10) | 10 (Jun 1-5) | Differential Equations & Dynamics | TBD | HW5 + Quiz 5 (Fri Jun 5) |
 | - | 11 | Final exam week | - | Final exam |
 
 ## Course Materials
@@ -196,7 +196,7 @@ The schedule below is tentative and subject to change throughout the term. Mater
 
 </details>
 
-<details open>
+<details>
 <summary><h3 id="block-4--weeks-7--8">Block 4 — Weeks 7 & 8</h3></summary>
 
 Block 4 is a two-week modeling block built around a Black-Scholes capstone project with two checkpoints. The project replaces the Homework 4 and Quiz 4 grades; see the [project timeline](/assignments/BS_Project_Timeline.pdf) for the full schedule and checkpoint structure.
@@ -206,6 +206,17 @@ Block 4 is a two-week modeling block built around a Black-Scholes capstone proje
 
 **Project Files**
 - [Black-Scholes SPX Project — Full Brief](/assignments/BS_Project_SPX_Brief.pdf) — Final report due Thursday, May 21 by midnight on Populi, Graded in-class discussion Friday, May 22. 
+
+</details>
+
+<details open>
+<summary><h3 id="block-5--weeks-9--10">Block 5 — Weeks 9 & 10</h3></summary>
+
+Block 5 covers differential equations and dynamics: setting up DEs from physical and biological systems, reading slope fields, solving separable equations, and classifying fixed points and stability.
+
+**Resources**
+- [L21 Differential Equations and Slope Fields — Lecture Notes](/resources/L21_LectureNotesResource.pdf)
+- [L22 Separable Differential Equations — Lecture Notes](/resources/L22_LectureNotesResource.pdf)
 
 </details>
 

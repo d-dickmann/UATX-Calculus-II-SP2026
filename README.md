@@ -217,6 +217,9 @@ Block 5 covers differential equations and dynamics: setting up DEs from physical
 **Resources**
 - [L21 Differential Equations and Slope Fields — Lecture Notes](/resources/L21_LectureNotesResource.pdf)
 - [L22 Separable Differential Equations — Lecture Notes](/resources/L22_LectureNotesResource.pdf)
+- [L23 Fixed Points and Stability — Lecture Notes](/resources/L23_LectureNotesResource.pdf)
+
+[**Homework 5:**](/assignments/HW5_DEs_Dynamics.pdf) Due Friday June 5. Hard copy turned in at the start of class.
 
 </details>
 

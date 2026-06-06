@@ -209,7 +209,7 @@ Block 4 is a two-week modeling block built around a Black-Scholes capstone proje
 
 </details>
 
-<details open>
+<details>
 <summary><h3 id="block-5--weeks-9--10">Block 5 — Weeks 9 & 10</h3></summary>
 
 Block 5 covers differential equations and dynamics: setting up DEs from physical and biological systems, reading slope fields, solving separable equations, and classifying fixed points and stability.

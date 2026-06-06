@@ -1,0 +1,119 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{parskip}
+
+\definecolor{secblue}{RGB}{24, 95, 165}
+\definecolor{coralred}{RGB}{153, 60, 29}
+
+\newcommand{\strand}[1]{%
+  \vspace{0.7em}%
+  \noindent{\large\textbf{\textcolor{secblue}{#1}}}\par\vspace{0.2em}%
+  \noindent\rule{\textwidth}{0.3pt}\par%
+}
+
+\hypersetup{colorlinks=true, linkcolor=secblue, urlcolor=secblue}
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{Final Exam Review --- Solutions}}\\[4pt]
+{\large Calculus II $\cdot$ STM 1002 $\cdot$ Spring 2026}
+\end{center}
+
+\noindent\textit{Solutions to the practice problems in \texttt{FinalReview\_NotesAndProblems}. Methods matter more than the final number --- compare your reasoning, not just your answer.}
+
+%% ============================================================
+\strand{1.\quad Accumulation \& the FTC}
+
+\begin{enumerate}[leftmargin=2em, itemsep=0.6em]
+\item By FTC Part 1, $\dfrac{d}{dx}\displaystyle\int_2^{x}\sqrt{1+t^3}\,dt = \sqrt{1+x^3}$.
+
+\item The variable is the lower limit, so flip: $\displaystyle\int_{x}^{5}\sin(t^2)\,dt = -\int_5^x \sin(t^2)\,dt$, and the derivative is $-\sin(x^2)$.
+
+\item (a) Additivity: $\displaystyle\int_0^5 f = \int_0^3 f + \int_3^5 f = 7 + 2 = 9$. \;(b) Reversal: $\displaystyle\int_5^0 f = -\int_0^5 f = -9$.
+
+\item $\Delta t = 2$. \;\textbf{Left} ($t=0,2,4$): $(5+8+6)(2) = 38$. \;\textbf{Right} ($t=2,4,6$): $(8+6+3)(2) = 34$. The integral is the total volume (in liters) that flowed during the 6 minutes; units: (L/min)$\times$min $=$ L.
+
+\item $F' = f$. So $F$ is \textbf{decreasing on $(0,1)$} (where $f<0$) and \textbf{increasing on $(1,4)$} (where $f>0$). $F'$ changes from negative to positive at $x=1$, so $F$ has a \textbf{local minimum at $x=1$}.
+
+\item Net displacement $=\displaystyle\int_0^5 (12 - 3t)\,dt = \bigl[12t - \tfrac32 t^2\bigr]_0^5 = 60 - 37.5 = \mathbf{22.5}$ m. The velocity is positive until $t=4$ and negative on $(4,5]$, so the car backs up at the end; that reversed motion cancels part of the forward progress, making net displacement ($22.5$ m) smaller than the total distance driven ($25.5$ m).
+\end{enumerate}
+
+%% ============================================================
+\strand{2.\quad Antiderivatives \& Techniques}
+
+\begin{enumerate}[leftmargin=2em, itemsep=0.6em, start=7]
+\item $\displaystyle\int (6x^2 - 4x + 1)\,dx = 2x^3 - 2x^2 + x + C$. \;\;$\displaystyle\int \cos(3x)\,dx = \tfrac13 \sin(3x) + C$.
+
+\item (a) $u=x^2$: $\tfrac12 e^{x^2} + C$. \;(b) $u=\ln x$: $\tfrac12 (\ln x)^2 + C$. \;(c) $u=x^2+1$: $\tfrac12 \ln(x^2+1)\big|_0^1 = \tfrac12\ln 2 \approx 0.347$.
+
+\item (a) $u=x$, $dv=e^x dx$: $\displaystyle\int x e^x\,dx = xe^x - e^x + C = e^x(x-1)+C$. \;(b) $u=x$, $dv=\sin x\,dx$: $-x\cos x + \sin x + C$. \;(c) $u=\ln x$, $dv=dx$: $x\ln x - x + C$.
+
+\item $v=t^2-4$, zero at $t=2$ (negative on $[0,2)$, positive on $(2,3]$). \;(a) Net $=\displaystyle\int_0^3 (t^2-4)\,dt = [\tfrac{t^3}{3}-4t]_0^3 = 9-12 = \mathbf{-3}$ m. \;(b) Total $=\displaystyle\int_0^2 (4-t^2)\,dt + \int_2^3 (t^2-4)\,dt = \tfrac{16}{3} + \tfrac{7}{3} = \tfrac{23}{3} \approx \mathbf{7.67}$ m.
+
+\item \;$\int x^2\sqrt{x^3+1}\,dx$: \textbf{substitution} $u=x^3+1$ ($du=3x^2\,dx$ present). \;$\int x^2\ln x\,dx$: \textbf{parts} (polynomial $\times\ln$; differentiate $\ln x$). \;$\int \frac{x}{1+x^2}\,dx$: \textbf{substitution} $u=1+x^2$ ($f'/f$). \;$\int \sin x\cos x\,dx$: \textbf{substitution} $u=\sin x$ (its derivative $\cos x$ is present).
+\end{enumerate}
+
+%% ============================================================
+\strand{3.\quad Applications: Area, Surplus, Series, Present Value}
+
+\begin{enumerate}[leftmargin=2em, itemsep=0.6em, start=12]
+\item On $[0,1]$, $\sqrt{x}\ge x$. Area $=\displaystyle\int_0^1 (\sqrt{x}-x)\,dx = \bigl[\tfrac23 x^{3/2} - \tfrac{x^2}{2}\bigr]_0^1 = \tfrac23 - \tfrac12 = \mathbf{\tfrac16}$.
+
+\item Intersect: $4-x^2 = x+2 \Rightarrow x^2+x-2=0 \Rightarrow x=-2,1$; the parabola is on top. Area $=\displaystyle\int_{-2}^{1}(2 - x - x^2)\,dx = \bigl[2x - \tfrac{x^2}{2} - \tfrac{x^3}{3}\bigr]_{-2}^{1} = \tfrac76 - (-\tfrac{10}{3}) = \mathbf{\tfrac{9}{2}}$.
+
+\item CS $=\displaystyle\int_0^5 \bigl[(20-2q) - 10\bigr]\,dq = \int_0^5 (10-2q)\,dq = [10q - q^2]_0^5 = 50-25 = \mathbf{25}$.
+
+\item $\displaystyle\sum_{k=0}^\infty 5\bigl(\tfrac13\bigr)^k = \dfrac{5}{1-\frac13} = \dfrac{5}{2/3} = \mathbf{\tfrac{15}{2}}$. \;And $0.\overline{27} = \dfrac{27/100}{1 - 1/100} = \dfrac{27}{99} = \mathbf{\tfrac{3}{11}}$.
+
+\item (a) PV $=\dfrac{8000(1-e^{-0.5})}{0.05} = \dfrac{8000(0.3935)}{0.05} \approx \mathbf{\$62{,}960}$. \;(b) Perpetuity: $\dfrac{C}{r} = \dfrac{8000}{0.05} = \mathbf{\$160{,}000}$. \;(c) Each future dollar is discounted by $e^{-rt}\to 0$, so distant payments contribute almost nothing; the discounted total converges even though the payments never end.
+\end{enumerate}
+
+%% ============================================================
+\strand{4.\quad The Normal Distribution}
+
+\begin{enumerate}[leftmargin=2em, itemsep=0.6em, start=17]
+\item $\mu=50$, $\sigma=10$. \;(a) $z=\tfrac{65-50}{10}=1.5$: $P(X<65)=\Phi(1.5)=\mathbf{0.9332}$. \;(b) $z=\tfrac{40-50}{10}=-1$: $P(X>40)=P(Z>-1)=\Phi(1)=\mathbf{0.8413}$. \;(c) $z=\pm1$: $\Phi(1)-\Phi(-1)=0.8413-0.1587=\mathbf{0.6826}$.
+
+\item Above $\mu+\sigma$: $(1-0.68)/2 = \mathbf{16\%}$. \;Above $\mu-2\sigma$: everything except the lower $2.5\%$ tail $=\mathbf{97.5\%}$.
+
+\item $[19,21] = 20 \pm 2(0.5) = \mu \pm 2\sigma$, which holds $\approx 95\%$ of the mass, so $\approx \mathbf{5\%}$ is scrapped. One vulnerable assumption: that lengths are \emph{exactly} normal with the mean fixed at $20$ and $\sigma$ constant --- tool wear, drift, or a skewed defect mode would break the empirical-rule estimate.
+\end{enumerate}
+
+%% ============================================================
+\strand{5.\quad Taylor Series}
+
+\begin{enumerate}[leftmargin=2em, itemsep=0.6em, start=20]
+\item (a) $\sin x:\; T_3 = x - \dfrac{x^3}{6}$. \;(b) $\dfrac{1}{1-x}:\; T_3 = 1 + x + x^2 + x^3$.
+
+\item $T_2 = 1 + 0.2 + \dfrac{(0.2)^2}{2} = \mathbf{1.22}$. Lagrange: $|R_2| \le \dfrac{\max e^c\,(0.2)^3}{3!} \le \dfrac{1.25(0.008)}{6} \approx \mathbf{1.7\times 10^{-3}}$ (true value $1.2214$, error $\approx 1.4\times10^{-3}$, within the bound). Lagrange is the right tool because the series for $e^x$ has \emph{all positive} terms --- it is not alternating, so the next-term bound does not apply.
+
+\item $\displaystyle\int_0^1 \sin(x^2)\,dx \approx \int_0^1\Bigl(x^2 - \tfrac{x^6}{6}\Bigr)\,dx = \tfrac13 - \tfrac{1}{42} = \tfrac{14-1}{42} = \mathbf{\tfrac{13}{42} \approx 0.3095}$.
+
+\item Terms $\tfrac{(0.1)^k}{k}$: $0.1,\;0.005,\;3.33\times10^{-4},\;2.5\times10^{-5}$. The first term below $10^{-4}$ is the degree-4 term, so keep through degree 3 --- \textbf{3 terms}: $T_3(0.1) = 0.1 - 0.005 + 0.000333 \approx \mathbf{0.09533}$ (true $\ln 1.1 \approx 0.09531$).
+
+\item $\sin\theta - \theta$ is bounded by the next term: $\bigl|\sin(0.3)-0.3\bigr| \le \dfrac{(0.3)^3}{6} = \dfrac{0.027}{6} = \mathbf{4.5\times10^{-3}}$. It is accurate for small $\theta$ because the omitted $\theta^3/6$ term is tiny when $\theta$ is small; for large $\theta$ that cubic (and higher) terms grow and the linear approximation falls apart.
+
+\item (a) At $x=\tfrac12$: $\sum (\tfrac12)^k$ \textbf{converges} to $\dfrac{1}{1-\frac12} = \mathbf{2}$. At $x=2$: the terms $2^k$ grow without bound, so the series \textbf{diverges}. \;(b) The radius is the distance from the center ($x=0$) to the nearest point where $\ln(1+x)$ misbehaves: the \textbf{singularity at $x=-1$}, where $1+x=0$ and $\ln$ blows up. That distance is $1$, so the series converges only for $|x|<1$.
+\end{enumerate}
+
+%% ============================================================
+\strand{6.\quad Differential Equations \& Dynamics}
+
+\begin{enumerate}[leftmargin=2em, itemsep=0.6em, start=26]
+\item $y = 4 + Ce^{-3t} \Rightarrow y' = -3Ce^{-3t}$. \;And $-3(y-4) = -3(Ce^{-3t}) = -3Ce^{-3t}$. The two sides agree for every $C$. \checkmark
+
+\item (a) Separate: $\dfrac{dy}{y} = 3x\,dx \Rightarrow \ln|y| = \tfrac32 x^2 + C \Rightarrow y = A e^{3x^2/2}$. With $y(0)=2$, $A=2$: $\;y = \mathbf{2e^{3x^2/2}}$. \;(b) $\dfrac{dy}{y^2}=dx \Rightarrow -\tfrac1y = x + C$. With $y(0)=1$, $C=-1$: $\;-\tfrac1y = x-1 \Rightarrow y = \dfrac{1}{1-x}$. It \textbf{blows up as $x\to 1$} (finite-time blow-up).
+
+\item $f(y)=y(4-y)$, fixed points $y=0$ and $y=4$. $f'(y)=4-2y$: $f'(0)=4>0$ (\textbf{unstable}), $f'(4)=-4<0$ (\textbf{stable}). Starting at $y(0)=1$ (between $0$ and $4$, where $f>0$), the solution increases and approaches the stable level $y=4$.
+
+\item (a) With $h=0$: $P'=0.5P(1-P/1000)$, fixed points $P=0$ (unstable) and $P=1000$ (stable carrying capacity). \;(b) As $h$ increases, the upper (stable) equilibrium drops below $1000$ and the lower (unstable) one rises; they collide at the peak of the growth curve. The maximum sustainable harvest is $h_{\max} = \dfrac{rK}{4} = \dfrac{0.5\cdot 1000}{4} = 125$. For $h>125$ there is \emph{no} positive equilibrium --- $P'<0$ everywhere --- and the population collapses to zero (over-harvesting).
+\end{enumerate}
+
+\end{document}

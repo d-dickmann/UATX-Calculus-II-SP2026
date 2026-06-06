@@ -92,7 +92,7 @@ The schedule below is tentative and subject to change throughout the term. Mater
 | [4](#block-4--weeks-7--8) | 8 (May 18-24) | Black-Scholes capstone | TBD | Report Due (Fri May 22), Graded Discussion (Fri May 22) |
 | [5](#block-5--weeks-9--10) | 9 (May 25-31) | Differential Equations & Dynamics (Mon = Memorial Day) | TBD | - |
 | [5](#block-5--weeks-9--10) | 10 (Jun 1-5) | Differential Equations & Dynamics | TBD | HW5 + Quiz 5 (Fri Jun 5) |
-| - | 11 | Final exam week | - | Final exam |
+| [Final](#final-exam--week-11) | 11 | Final exam week | - | Final exam |
 
 ## Course Materials
 
@@ -220,6 +220,17 @@ Block 5 covers differential equations and dynamics: setting up DEs from physical
 - [L23 Fixed Points and Stability — Lecture Notes](/resources/L23_LectureNotesResource.pdf)
 
 [**Homework 5:**](/assignments/HW5_DEs_Dynamics.pdf) Due Friday June 5. Hard copy turned in at the start of class.
+
+</details>
+
+<details open>
+<summary><h3 id="final-exam--week-11">Final Exam — Week 11</h3></summary>
+
+The final exam is cumulative. Use all prior course materials (homework, practice, notes) along with the below review materials to study. 
+
+**Final Review**
+- [Final Review Notes & Problems](/resources/FinalReview_NotesAndProblems.pdf): General outline and practice problems.
+- [Final Review Solutions](/resources/FinalReview_Solutions.pdf): worked solutions to the practice problems.
 
 </details>
 

@@ -1,0 +1,176 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{mdframed}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{parskip}
+
+\definecolor{secblue}{RGB}{24, 95, 165}
+\definecolor{lightgray}{RGB}{245, 244, 240}
+\definecolor{borderorange}{RGB}{250, 199, 117}
+\definecolor{coralred}{RGB}{153, 60, 29}
+
+\newmdenv[backgroundcolor=lightgray, linecolor=borderorange,
+  linewidth=2pt, topline=false, rightline=false, bottomline=false,
+  leftmargin=0pt, rightmargin=0pt,
+  innerleftmargin=12pt, innerrightmargin=8pt,
+  innertopmargin=8pt, innerbottommargin=8pt,
+  skipabove=8pt, skipbelow=6pt]{notebox}
+
+\newcommand{\strand}[1]{%
+  \vspace{0.8em}%
+  \noindent{\large\textbf{\textcolor{secblue}{#1}}}\par\vspace{0.2em}%
+}
+
+\hypersetup{colorlinks=true, linkcolor=secblue, urlcolor=secblue}
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{Final Exam Review}}\\[5pt]
+{\large Notes \& Practice Problems}\\[3pt]
+{\large Calculus II $\cdot$ STM 1002 $\cdot$ Spring 2026}
+\end{center}
+
+\begin{notebox}
+\textbf{How to use this packet:} This packet contains (1) a general outline of material covered in the course, and (2) practice problems. Solutions to the practice problems are available in \texttt{FinalReview\_Solutions.pdf}. I encourage review of class materials and rework of homework problems (see the \href{https://github.com/d-dickmann/UATX-Calculus-II-SP2026/}{course website}). Remember that AI models are helpful tutors. Effective use requires the student to engage with curiosity and interrogate the model critically.
+
+\smallskip
+\textbf{Weighting.} The exam emphasizes the first two course objectives. Differential equations are on the exam (we must test all three course objectives), but in light of the recent Quiz, are lighter touch. The normal distribution and Taylor approximation are fair gambe, but there is no Capstone-related Black-Scholes material on the final exam.
+
+\smallskip
+\textbf{Format \& logistics.} 2 hours; Part I multiple choice ($\approx$65\%), Part II free response ($\approx$35\%). Basic reference sheet will be provided. Calculator for arithmetic only.
+\end{notebox}
+
+%% ============================================================
+\section*{Part 1: Outline}
+
+\strand{1.\quad Accumulation \& the Fundamental Theorem (Objective 1)}
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt]
+  \item Definite integral $=$ accumulated net change of a rate
+  \item \textbf{FTC Part 1:} $\frac{d}{dx}\int_a^x f(t)\,dt = f(x)$. Variable in the \emph{lower} limit $\Rightarrow$ extra minus sign.
+  \item \textbf{FTC Part 2:} $\int_a^b f = F(b) - F(a)$ for any antiderivative $F$.
+  \item $F(x)=\int_a^x f$ increases where $f>0$, has a max/min where $f$ changes sign (since $F'=f$).
+  \item Riemann sums (left/right/midpoint) approximate the integral; right sum uses right endpoints, $\Delta x = \frac{b-a}{n}$.
+  \item Properties: linearity, additivity ($\int_a^c=\int_a^b+\int_b^c$), reversal ($\int_b^a=-\int_a^b$).
+\end{itemize}
+
+\strand{2.\quad Antiderivatives, Net Change \& Techniques (Objective 2)}
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt]
+  \item power rule, $\int \tfrac1x\,dx=\ln|x|$, $e^x$, $\sin/\cos$, linearity.
+  \item \textbf{Net displacement} $=\int v\,dt$ (signed); \textbf{total distance} $=\int |v|\,dt$ (split where $v=0$).
+  \item \textbf{$u$-substitution:} reverse chain rule. Look for an inside function whose derivative is also present ($f'/f \to \ln$).
+  \item \textbf{Integration by parts:} $\int u\,dv = uv - \int v\,du$. choose $u$ such that it simplifies when differentiated.
+  \item Method choice: if you see ``inside function's derivative,'' try substitution; if it's a product that won't simplify by substitution, try parts.
+\end{itemize}
+
+\strand{3.\quad Area and Geometric Series}
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt]
+  \item \textbf{Area between curves:} $\int (\text{top}-\text{bottom})\,dx$ over the interval between intersection points.
+    \begin{itemize}[itemsep=1pt]
+      \item \textbf{Application:} Consumer surplus: $\int_0^{q^*}\bigl[D(q)-p^*\bigr]\,dq$ (area between demand curve and the price line).
+    \end{itemize}
+  \item \textbf{Geometric series:} $\sum_{k=0}^\infty ar^k = \frac{a}{1-r}$ for $|r|<1$.
+    \begin{itemize}[itemsep=1pt]
+      \item \textbf{Application:} Present value: (continuous stream, rate $C$, rate of return $r$, horizon $T$): $\text{PV}=\frac{C(1-e^{-rT})}{r}$; perpetuity ($T\to\infty$): $\frac{C}{r}$.
+    \end{itemize}
+\end{itemize}
+
+\strand{4.\quad The Normal Distribution} (Accumulation of probability)
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt]
+  \item $X\sim N(\mu,\sigma^2)$; standardize with $z=\frac{x-\mu}{\sigma}$, then $P(X<x)=\Phi(z)$.
+  \item Tails/intervals: $P(X>x)=1-\Phi(z)$; \;$P(a<X<b)=\Phi(z_b)-\Phi(z_a)$; \;$\Phi(-z)=1-\Phi(z)$.
+  \item \textbf{Empirical rule:} $\approx 68\%/95\%/99.7\%$ within $\pm1/\pm2/\pm3\,\sigma$.
+  \item The normal density has \emph{no elementary antiderivative}, so $\Phi$ is computed numerically (tables/software), not by the FTC.
+\end{itemize}
+
+\strand{5.\quad Taylor Series}
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt]
+  \item Taylor series allows us to approximate functions with polynomials, using the derivatives of the function. Useful because polynomials are easy to integrate and differentiate. Generally, the more terms we use, the more accurate the approximation. Some functions don't converge across the entire domain.
+  \item \textbf{Error bounds:} alternating series with decreasing terms $\Rightarrow$ error $\le$ first omitted term. Otherwise Lagrange: $|R_n|\le \frac{M\,|x-a|^{n+1}}{(n+1)!}$, $M=\max|f^{(n+1)}|$.
+  \item \textbf{Convergence:} radius set by the nearest ``bad point''; integrate a known series term by term to approximate hard integrals.
+\end{itemize}
+
+\strand{6.\quad Differential Equations \& Dynamics (Objective 3) --- lighter on the exam}
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt]
+  \item \textbf{Verify} a solution: plug it into both sides of the DE.
+  \item \textbf{Separable:} $\frac{dy}{dx}=g(x)h(y)\Rightarrow \int\frac{dy}{h(y)}=\int g(x)\,dx$, then apply the initial condition.
+  \item \textbf{Slope fields:} for autonomous $y'=f(y)$, sign of $f$ gives the direction; flat where $f=0$.
+  \item \textbf{Fixed points:} $f(y^*)=0$. Stable if $f'(y^*)<0$, unstable if $f'(y^*)>0$ (linearization).
+  \item Canonical models: $y'=ky$ (growth/decay), Newton cooling $T'=-k(T-T_a)$, logistic $P'=rP(1-P/K)$.
+\end{itemize}
+
+\newpage
+%% ============================================================
+\section*{Part 2: Practice Problems}
+
+%% ---- Section 1 ----
+\subsection*{1.\quad Accumulation \& the FTC}
+
+\begin{enumerate}[leftmargin=2em, itemsep=0.7em]
+\item Compute $\dfrac{d}{dx}\displaystyle\int_2^{x}\sqrt{1+t^3}\,dt$.
+\item Compute $\dfrac{d}{dx}\displaystyle\int_{x}^{5}\sin(t^2)\,dt$.
+\item Given $\displaystyle\int_0^3 f = 7$ and $\displaystyle\int_3^5 f = 2$, find (a) $\displaystyle\int_0^5 f$ and (b) $\displaystyle\int_5^0 f$.
+\item A sensor logs a flow rate $f(t)$ (L/min) at $t=0,2,4,6$ as $5, 8, 6, 3$. Estimate $\displaystyle\int_0^6 f\,dt$ with (a) a left Riemann sum and (b) a right Riemann sum ($n=3$). What does the integral represent, and what are its units?
+\item $f$ is continuous with $f<0$ on $(0,1)$, $f(1)=0$, $f>0$ on $(1,4)$. Let $F(x)=\int_0^x f$. On $(0,4)$, where is $F$ decreasing, where increasing, and where does it have a local minimum? Justify with the FTC.
+\item (modeling) A car's velocity is $v(t)=12-3t$ m/s for $0\le t\le 5$. Find the net displacement on $[0,5]$ and explain in words why it is less than the total distance traveled.
+\end{enumerate}
+
+%% ---- Section 2 ----
+\subsection*{2.\quad Antiderivatives \& Techniques}
+
+\begin{enumerate}[leftmargin=2em, itemsep=0.7em, start=7]
+\item Find $\displaystyle\int \bigl(6x^2 - 4x + 1\bigr)\,dx$ and $\displaystyle\int \cos(3x)\,dx$.
+\item Evaluate by substitution: (a) $\displaystyle\int x\,e^{x^2}\,dx$, \;(b) $\displaystyle\int \frac{\ln x}{x}\,dx$, \;(c) $\displaystyle\int_0^1 \frac{x}{x^2+1}\,dx$.
+\item Evaluate by parts: (a) $\displaystyle\int x\,e^{x}\,dx$, \;(b) $\displaystyle\int x\sin x\,dx$, \;(c) $\displaystyle\int \ln x\,dx$.
+\item A particle has velocity $v(t)=t^2-4$ (m/s) on $[0,3]$. Find (a) the net displacement and (b) the total distance traveled.
+\item (modeling) For each integral, name the technique you would use (substitution, parts, or direct) and why --- you do \emph{not} need to evaluate: \;$\displaystyle\int x^2\sqrt{x^3+1}\,dx$, \;$\displaystyle\int x^2\ln x\,dx$, \;$\displaystyle\int \frac{x}{1+x^2}\,dx$, \;$\displaystyle\int \sin x\,\cos x\,dx$.
+\end{enumerate}
+
+%% ---- Section 3 ----
+\subsection*{3.\quad Applications: Area, Surplus, Series, Present Value}
+
+\begin{enumerate}[leftmargin=2em, itemsep=0.7em, start=12]
+\item Find the area of the region between $y=\sqrt{x}$ and $y=x$ on $[0,1]$.
+\item Find the area enclosed by $y=4-x^2$ and $y=x+2$.
+\item A market has linear demand $D(q)=20-2q$ with equilibrium $q^*=5$, $p^*=10$. Compute the consumer surplus.
+\item Evaluate $\displaystyle\sum_{k=0}^{\infty} 5\left(\tfrac{1}{3}\right)^k$, and write the repeating decimal $0.\overline{27}$ as a fraction using a geometric series.
+\item (modeling) An endowment pays out continuously at \$8{,}000/year. Money earns $r=5\%$ continuously. (a) Find the present value if the payouts last $T=10$ years, using $e^{-0.5}=0.6065$. (b) Find the present value if they last forever (perpetuity). (c) Why is (b) finite even though the payments never stop?
+\end{enumerate}
+
+%% ---- Section 4 ----
+\subsection*{4.\quad The Normal Distribution}
+
+\begin{enumerate}[leftmargin=2em, itemsep=0.7em, start=17]
+\item Test scores are $X\sim N(50,100)$ (so $\mu=50$, $\sigma=10$). Using $\Phi(1)=0.8413$ and $\Phi(1.5)=0.9332$, find (a) $P(X<65)$, (b) $P(X>40)$, (c) $P(40<X<60)$.
+\item Using the empirical rule, what fraction of a normal population lies \emph{above} $\mu+\sigma$? Above $\mu - 2\sigma$?
+\item (modeling) A factory's bolt lengths are $N(20,\,0.25)$ mm (so $\sigma=0.5$). Bolts outside $[19,21]$ mm are scrapped. Using the empirical rule, roughly what fraction is scrapped? Name one assumption of this model that could fail in practice.
+\end{enumerate}
+
+%% ---- Section 5 ----
+\subsection*{5.\quad Taylor Series}
+
+\begin{enumerate}[leftmargin=2em, itemsep=0.7em, start=20]
+\item Write the degree-3 Taylor polynomial about $0$ for (a) $\sin x$, (b) $\dfrac{1}{1-x}$.
+\item Approximate $e^{0.2}$ using $T_2$ about $0$. Then bound the error with the Lagrange remainder, using $e^{0.2}<1.25$. Why is Lagrange (not the alternating bound) the right tool here?
+\item Use the series $\sin(x^2)=x^2 - \dfrac{x^6}{6}+\cdots$ to approximate $\displaystyle\int_0^1 \sin(x^2)\,dx$ with its first two nonzero terms.
+\item You approximate $\ln(1.1)$ from $\ln(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}-\cdots$ at $x=0.1$. How many terms guarantee error $<10^{-4}$ by the alternating-series bound? Report that approximation.
+\item (modeling) Engineers replace $\sin\theta$ by $\theta$ for small angles. Using $\sin\theta=\theta-\frac{\theta^3}{6}+\cdots$, bound the error of this approximation at $\theta=0.3$ rad, and say in one sentence why the approximation is good for small $\theta$ but bad for large $\theta$.
+\item (convergence) The geometric series $\dfrac{1}{1-x}=\sum_{k=0}^\infty x^k$ converges only for $|x|<1$. (a) Decide whether $\sum x^k$ converges at $x=\tfrac12$ and at $x=2$; if it converges, give the sum. (b) The Taylor series for $\ln(1+x)$ also has radius of convergence $1$. What feature of $\ln(1+x)$ forces the radius to be $1$?
+\end{enumerate}
+
+%% ---- Section 6 ----
+\subsection*{6.\quad Differential Equations \& Dynamics}
+
+\begin{enumerate}[leftmargin=2em, itemsep=0.7em, start=26]
+\item Verify that $y=4 + Ce^{-3t}$ solves $\dfrac{dy}{dt}=-3(y-4)$ for every constant $C$.
+\item Solve the IVPs: (a) $\dfrac{dy}{dx}=3xy$, $y(0)=2$; \;(b) $\dfrac{dy}{dx}=y^2$, $y(0)=1$ (state where the solution breaks down).
+\item For $\dfrac{dy}{dt}=y(4-y)$: find the fixed points, classify each as stable/unstable, and describe (in words) the long-run behavior of a solution starting at $y(0)=1$.
+\item (modeling) A fish population follows $\dfrac{dP}{dt}=0.5\,P\left(1-\dfrac{P}{1000}\right) - h$, where $h$ is a constant harvest rate. (a) With $h=0$, find and classify the fixed points. (b) Explain what happens to the stable population level as $h$ increases from $0$, and what goes wrong once $h$ is too large. (No need to solve the DE.)
+\end{enumerate}
+
+\end{document}
